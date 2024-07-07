@@ -1,0 +1,129 @@
+
+
+/* styles for the upper part of the footer */
+
+.footer-part section {
+    background-color: #342CC0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #f3ecec;
+    font-size: 18px;
+    border-top: 1px solid #e9ecef;
+}
+
+.footer-part section input {
+    width: 25%;
+    padding: 17px;
+    border: none;
+    border-radius: 10px;
+    /* margin-right: -6rem; */
+}
+
+.footer-part section input::placeholder {
+    color: #072c5e;
+    font-size: 15px;
+    font-weight: 750;
+   }
+.footer-part section input:focus {
+    outline: none;
+}
+
+.footer-part section button {
+    padding: 9px 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #342CC0;
+    color: #f3ecec;
+    margin-left: -6rem;
+}
+   
+.lower-footer {
+    background-color: #0c093f;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #f3ecec;
+    /* border-top: 1px solid #e9ecef; */
+}
+
+.footer-part section #input-part {
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+.footer-part section {
+  padding-top: 75px;
+}
+
+.footer-part section p {
+  font-weight: 600;
+}
+
+.footer-part section h1 {
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-bottom: 15px;
+}
+
+
+/* styles for the lower part of the footer */
+footer .main {
+  color: #e7e1e1;
+  font-family :Georgia, 'Times New Roman', Times, serif;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+
+footer .main img {
+  width: 160px;
+  height: 65px;
+  padding-top: 15px;
+}
+ 
+footer .service {
+  padding-left: 12rem;
+  padding-top: 35px;
+}
+
+footer .service p {
+font-size: 18px;
+font-weight: 550;
+padding-top: 20px;
+}
+
+footer .account {
+  padding-left: 15rem;
+  padding-top: 35px;
+}
+
+footer .account p {
+  font-size: 18px;
+  font-weight: 550;
+  padding-top: 20px;
+}
+
+footer .support {
+  padding-left: 17rem;
+  padding-top: 35px;
+}
+
+footer .support p {
+  font-size: 18px;
+  font-weight: 550;
+  padding-top: 20px;
+}
+
+.lower-footer {
+  display: flex;
+}
+
+footer .bottom p {
+  color: #f3ecec;
+  font-weight: 500;
+  background-color: #0c093f;
+  padding-top: 80px;  
+  padding-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
