@@ -134,6 +134,13 @@
   float: right;
 }
 
+.list p {
+ margin-left: 30px;
+  font-weight: 600;
+  position: relative;
+  gap: 30px;
+}
+
 .list span {
   color: #342cc0;
   font-weight: 600;

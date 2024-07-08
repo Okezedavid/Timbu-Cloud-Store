@@ -1,12 +1,9 @@
 import React from "react";
-import nav from "../assets/images/nav.svg";
-// import cart from "../assets/images/cart frame.png";
-// import icon from "../assets/images/icon.png";
 import "../css/style.css";
 import "../css/page.css";
-import "../css/cart.css";
+// import "../css/cart.css";
 
-export default function cart() {
+export default function Checkout() {
   return (
     <div className="page">
       <div className="nav-section">

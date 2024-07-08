@@ -1,6 +1,5 @@
 // src/components/Footer.jsx
 import React from "react";
-import styled from "styled-components";
 import social from "../assets/images/social.png";
 import "../css/style.css";
 

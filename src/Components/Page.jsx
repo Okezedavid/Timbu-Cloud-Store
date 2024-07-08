@@ -1,7 +1,7 @@
 // src/components/Header.jsx
 import React from "react";
-import { Link } from "react-router-dom";
-import { motion as m } from "framer-motion";
+import { Link } from 'react-router-dom';
+import Footer from "./Footer"
 import banner1 from "../assets/images/Banner1.svg";
 import banner2 from "../assets/images/Banner2.svg";
 import pic1 from "../assets/images/pic1.png";
@@ -27,7 +27,8 @@ import "../css/page.css";
 
 export default function Header() {
   return (
-    <div className="page">
+    
+      <div className="page">
       <div className="nav-section">
         <nav>
           <p>
@@ -274,7 +275,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
           <div id="image2">
             <img src={pic2} alt="products" />
@@ -295,7 +296,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
           <div id="image3">
             <img src={pic3} alt="products" />
@@ -316,7 +317,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
           <div id="image4">
             <img src={pic4} alt="products" />
@@ -337,7 +338,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
         </div>
         <div className="section2">
@@ -360,7 +361,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
           <div id="image6">
             <img src={pic6} alt="products" />
@@ -381,7 +382,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
           <div id="image7">
             <img src={pic7} alt="products" />
@@ -402,7 +403,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
           <div id="image8">
             <img src={pic8} alt="products" />
@@ -423,7 +424,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
         </div>
         <div className="section3">
@@ -446,7 +447,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
           <div id="image10">
             <img src={pic10} alt="products" />
@@ -467,7 +468,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
           <div id="image11">
             <img src={pic11} alt="products" />
@@ -488,7 +489,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
           <div id="image12">
             <img src={pic12} alt="products" />
@@ -509,7 +510,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
         </div>
         <div className="section4">
@@ -532,7 +533,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
           <div id="image14">
             <img src={pic14} alt="products" />
@@ -553,7 +554,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
           <div id="image15">
             <img src={pic15} alt="products" />
@@ -574,7 +575,7 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
           <div id="image16">
             <img src={pic16} alt="products" />
@@ -595,13 +596,15 @@ export default function Header() {
             </svg>
             <p>Custom Air Force one</p>
             <p>$ 40.00</p>
-            <button>Add to cart</button>
+            <Link to="/Cart"><button>Add to cart</button></Link>
           </div>
         </div>
       </div>
       <div id="paginate">
         <img src={pagination} alt="pagination" />
       </div>
+      <Footer/>
     </div>
+   
   );
 }
