@@ -48,7 +48,7 @@
 }
 
 .list {
-    padding-left: 109px;
+    padding-left: 113px;
     padding-top: 25px;
     display: flex;
     padding-bottom: 20px;
@@ -66,20 +66,85 @@
 }
 
 #icon {
-    padding-left: 59.6rem;
+    padding-left: 59rem;
 }
 
 #icon:hover {
     cursor: pointer;
 }
 
-.products {
+/* .products {
    padding-left: 7rem;
+} */
+
+
+/* .products:hover {
+    cursor: pointer;
+} */
+
+.products img  {
+    width: 290px;
+    height: 280px;
+    padding: 45px;  
+}
+
+.products button {
+    background-color: #342CC0;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-bottom: -80px;
+    position: relative;
+    top: -45px;
+    margin-left: 10.6rem;
+}
+
+.products button:hover {
+    cursor: pointer;
+    background-color: #0c093f;  
+}
+
+.products p {
+    color: var(--Black-color-Dark, #0D1216);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.products svg {
+    position: relative;
+    top: -16rem;
+    margin-left: 14rem;
+}
+ 
+.section1, .section2, .section3, .section4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 35px;
+
 }
 
 
-.products:hover {
-    cursor: pointer;
+#image1,#image2,#image3,#image4,#image5,#image6,#image7,#image8,#image9,#image10,#image11,#image12,#image12,#image13,#image14,#image15,#image16 {
+    border: 1px solid #a4c4f5;
+    width: 280px;
+    height: 365px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 22px;
+    background-color: #fffefe;
+}
+
+#image1,#image2,#image3,#image4,#image5,#image6,#image7,#image8,#image9,#image10,#image11,#image12,#image12,#image13,#image14,#image15,#image16{
+   
+
 }
 
 #paginate {
@@ -91,4 +156,9 @@
 
 #paginate:hover {
     cursor: pointer;
+}
+
+.down-icon {
+    padding-left: 54.6rem;
+    margin-top: -22px;
 }

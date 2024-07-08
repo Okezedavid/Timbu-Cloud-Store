@@ -37,6 +37,11 @@
     color: #f3ecec;
     margin-left: -6rem;
 }
+
+.footer-part section button:hover {
+    background-color: #0c093f;
+    color: #f3ecec;
+}
    
 .lower-footer {
     background-color: #0c093f;
