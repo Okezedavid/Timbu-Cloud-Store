@@ -7,7 +7,6 @@ import Footer from '../src/Components/Footer';
 
 const App = () => (
   <div>
-    <GlobalStyles />
     <Header />
     <Footer />
   </div>
