@@ -224,7 +224,7 @@ footer .support p {
 }
 
 .lower-footer {
-  display: inline-block;
+  display: block;
 }
 
 .lower-footer p {
@@ -260,7 +260,7 @@ footer .bottom p {
 
 #support svg {
   position: relative;
-  right: 30px;
+  right: 28px;
   top: -11px;
 }
 

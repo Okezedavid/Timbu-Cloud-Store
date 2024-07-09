@@ -32,10 +32,10 @@ export default function Header() {
       <div className="page">
       <div className="nav-section">
         <nav>
-          <p id="splash">
+          <div id="splash"><p >
             Make a splash with our summer sales: 50% off + Express <br />{" "}
             Delivery
-          </p>
+          </p></div>
           <div>
             {" "}
             <p className="shop">Shop Now</p>
@@ -157,7 +157,7 @@ export default function Header() {
               stroke-width="1.5"
             />
           </svg>
-          <svg
+          <svg id="special"
             xmlns="http://www.w3.org/2000/svg"
             width="60"
             height="61"
