@@ -277,4 +277,55 @@
     cursor: pointer;
   }
   
- 
+
+  /* MEDIA QUERIES */
+
+  @media screen and (max-width: 440px) {
+    .banner {
+        display: none;
+      }
+
+      .english,.shop {
+        display: none;
+      }
+      #paginate {
+        display: flex;
+        justify-content: center;
+        width: 3px;
+        position: relative;
+        right: -11.2rem;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+      
+    #input-svg svg{
+        display: none;
+    }
+
+    .bottom-nav p {
+        display: none;
+    }
+
+    .bottom-nav input {
+        display: none;
+    }
+
+    .perks {
+        display: none;
+    }
+   
+    #splash {
+        display:initial;
+    }
+    .page nav {
+        background-color: #342cc0;
+        display: flex;
+        padding-top: 14px;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        position: relative;
+
+      }
+    
+}

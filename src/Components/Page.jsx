@@ -32,7 +32,7 @@ export default function Header() {
       <div className="page">
       <div className="nav-section">
         <nav>
-          <p>
+          <p id="splash">
             Make a splash with our summer sales: 50% off + Express <br />{" "}
             Delivery
           </p>
