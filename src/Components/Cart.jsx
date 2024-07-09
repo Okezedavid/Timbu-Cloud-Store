@@ -6,7 +6,7 @@ import cart1 from "../assets/images/cart1.png";
 import cart2 from "../assets/images/cart2.png";
 import cart3 from "../assets/images/cart3.png";
 import cart4 from "../assets/images/cart4.png";
-// import "../css/page.css";
+import "../index.css";
 import "../css/carts.css";
 
 export default function Cart() {
@@ -322,12 +322,12 @@ export default function Cart() {
       <div className="cart-total">
         <div id="shoping-items">
           <h2>Cart Total</h2>
-         <div id="first"> <p>Subtotal</p> <p>$175</p> </div>
-         <hr />
-          <div id="second"><p>Shopping</p>  <p>#12</p></div>
-          <hr />
-          <div id="third"><p>Total</p> <p>$185</p></div>
-          <button>Proceed to Checkout</button>
+         <div id="first"> <p>Subtotal:</p> <div id="one"><span >$175</span></div> </div>
+        <div id="first-line"> <hr /></div>
+          <div id="second"><p>Shopping:</p> <div id="two"><span >$12</span></div> </div>
+         <div id="second-line"> <hr /></div>
+          <div id="third"><p>Total:</p> <div id="three"><span>$185</span></div></div>
+       <Link to="/Checkout">   <button>Proceed to Checkout</button></Link>
         </div>
       </div>
       <div className="footer-side">

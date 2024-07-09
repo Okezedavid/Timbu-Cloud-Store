@@ -1,7 +1,8 @@
 import React from "react";
 import "../css/style.css";
 import "../css/page.css";
-// import "../css/cart.css";
+import social from "../assets/images/social.png";
+import "../css/checkout.css";
 
 export default function Checkout() {
   return (
@@ -36,48 +37,70 @@ export default function Checkout() {
         </nav>
       </div>
       <div>
-        <img src={nav} alt="nav" />
+       
       </div>
 
       <div className="list">
         <p>
-          Home / Products / Carts /<span>Checkout</span>
+          Home  / Products  / Carts  / <span>Checkout</span>
         </p>
       </div>
    <div className="billing-order">
    <div className="billing-address">
         <h1>Billing Address</h1>
-        <label htmlFor="name">First Name</label>
+        <label htmlFor="name" className="label-p">First Name</label>
+        <br />
+        <br />
         <input placeholder="Enter Fist Name" type="text" />
-        <label htmlFor="name">Last Name</label>
+        <br />
+        <br />
+        <label htmlFor="name" className="label-p">Last Name</label>
+        <br />
+        <br />
         <input placeholder="Enter Last Name" type="text" />
-        <label htmlFor="number">Phone Number</label>
+        <br />
+        <br />
+        <label htmlFor="number" className="label-p">Phone Number</label>
+        <br />
+        <br />
         <input placeholder="Enter Phone Number" type="text" />
-        <label htmlFor="email">Email</label>
+        <br />
+        <br />
+        <label htmlFor="email" className="label-p">Email</label>
+        <br />
+        <br />
         <input placeholder="Enter Email" type="text" />
-        <label htmlFor="address">Delivey Address</label>
+        <br />
+        <br />
+        <label htmlFor="address" className="label-p">Delivey Address</label>
+        <br />
+        <br />
         <input placeholder="Enter Address" type="text" />
-        <label htmlFor="address">Town/City</label>
+        <br />
+        <br />
+        <label htmlFor="address" className="label-p">Town/City</label>
+        <br />
+        <br />
         <input placeholder="Enter Address" type="text" />
       </div>
       <div className="order">
-        <h2>Order Summary</h2>
-        <hr />
-        <p>Items(4)</p>
-        <p>Delivery</p>
+       <div id="line">
+       <h2>Order Summary</h2>
+       <hr />
+       </div>
+        <p>Items(4) <span>$173</span></p>
+        <p>Delivery <span>$12</span></p>
         <p>Bank</p>
         <p>Cash on Delivery</p>
         <div>
-          <p>$173</p>
-          <p>$12</p>
-        </div>
-        <div>
           <input placeholder="coupon code" type="text" />
-          <button>Apply Coupon</button>
+          <button id="first-btn">Apply Coupon</button>
         </div>
-        <button>Purchase Now</button>
+        <button id="second-btn">Purchase Now</button>
       </div>
    </div>
+
+   {/*  FOOTER SECTION */}
       <div className="footer-side">
         <div className="footer-part">
           <section>
@@ -96,7 +119,7 @@ export default function Checkout() {
           <div className="lower-footer  ">
             <div className="main">
               <h1>KICKZZS</h1>
-              <img src={social} alt="media" />
+            <img src={social} alt="img" />
             </div>
             <div className="service">
               <h2>Services</h2>

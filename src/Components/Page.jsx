@@ -24,6 +24,7 @@ import pagination from "../assets/images/Pagination.png";
 import icon from "../assets/images/icon.png";
 import "../css/style.css";
 import "../css/page.css";
+import "../index.css";
 
 export default function Header() {
   return (

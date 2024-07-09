@@ -1,5 +1,132 @@
 /* STYLES FOR THE BILLING AND THE ORDER PARTS */
+
 .billing-order {
     display: flex;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
 }
 
+
+.billing-address {
+    display: inline-block;
+    position: relative;
+    top: -9px;
+    right: -6rem;
+}
+
+.billing-address input {
+    width: 24rem;
+    padding: 8px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+}
+
+.billing-address label {
+    gap: -10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    font: 18px;
+
+}
+
+.billing-address h1 {
+  
+    font-weight: 700;
+    
+    padding-bottom: 30px;
+
+}
+
+.billing-address input::placeholder {
+    color: #838389;
+    font-size: 12px;
+    font-weight: 650;
+}
+
+.billing-address input:focus {
+    outline: none;
+}
+
+.order {
+    position: relative;
+    right: -30rem;
+    border: 1px solid #7f7e8a;
+    width: 35%;
+    height: 26rem;
+    padding: 34px;
+    border-radius: 8px;
+}
+
+.order h2 {
+    position: relative;
+    top: -1.5rem;
+}
+
+#line hr {
+    position: relative;
+    top: -1rem;
+    border: 1px solid #a4a3ae;
+    width: 115.4%;
+    left: -2.1rem;
+}
+.order p {
+    font-weight: 500;
+    padding-bottom: 23px;
+}
+
+.order span {
+    font-weight: 700;
+    position: relative;
+    right: -21rem;
+}
+
+.order input {
+    width: 16rem;
+    padding: 4px 8px;
+    height: 45px;
+    border: 1px solid #696970;
+    border-radius: 5px;
+}
+.order input::placeholder {
+    color: #838389;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.order input:focus {
+    outline: none;
+}
+
+.order button {
+    background-color: #342cc0;
+    color: white;
+    border: none;
+}
+
+.order button:hover {
+    background-color: #443cdd;
+    color: white;
+    border: none;
+}
+
+#first-btn {
+    padding: 10px 40px;
+    border-radius: 5px;
+    position: relative;
+    right: -20px;
+    height: 45px;
+}
+
+#second-btn {
+    padding: 10px 40px;
+    border-radius: 5px;
+    position: relative;
+    right: -4.6rem;
+    bottom: -4rem;
+    height: 46px;
+    width: 18rem;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
