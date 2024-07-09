@@ -22,6 +22,10 @@
     padding-left: 17rem;
   }
   
+  .page nav:hover {
+    cursor: pointer;
+  }
+
   .bottom-nav {
     display: flex;
     justify-content: space-between;
@@ -60,6 +64,9 @@
     margin-right: 2rem; 
   }
   
+    .bottom-nav p:hover {
+        cursor: pointer;
+    }
   .kicks {
     margin-left: 2rem; /* Adjusted to be relative */
     top: -20px;
