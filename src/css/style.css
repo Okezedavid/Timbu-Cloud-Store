@@ -171,6 +171,11 @@ footer .bottom p {
 
 }
 
+#input-part button {
+  position:  relative;
+  left: -35px;
+}
+
 .lower-footer {
   background-color: #0c093f;
  

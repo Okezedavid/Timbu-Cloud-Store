@@ -130,3 +130,12 @@
     font-weight: 600;
     font-size: 17px;
 }
+
+
+
+
+@media screen and (max-width: 440px){
+    .billing-order {
+      display: inline-block;
+    }
+}
